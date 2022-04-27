@@ -25,7 +25,7 @@ type Context = {
 const typeDefs = gql`
   type Query {
     me: User
-    serverTime: Int!
+    serverTime: String!
   }
   type Mutation {
     login(email: String!, password: String!): AuthResult!
@@ -46,7 +46,7 @@ const resolvers = {
       return user;
     },
     serverTime() {
-      return Date.now();
+      return String(Date.now());
     },
   },
   Mutation: {

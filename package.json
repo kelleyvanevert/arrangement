@@ -1,0 +1,24 @@
+{
+  "name": "arrangement",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kelley van Evert <hello@klve.nl>",
+  "license": "MIT",
+  "prettier": {},
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "^12.1.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.29",
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.6.3"
+  }
+}
